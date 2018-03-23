@@ -2,6 +2,9 @@ __author__ = 'Adeel'
 #Step 1: Open file, get input from user
 #Step 2: Create function that takes input from user and perform search operation like if user enter country then its capital would be printed, if user enter capital its country would be printed
 #Step 3: If user enter any currency then its country would be printed. e.g. if you enter Euro all countries would be printed in which euro is currecny
+
+#capitals.csv file need to be in the same directory as the program. Name of country should be entered as it is entered in the file.
+
 import csv
 
 def  GetData(var,data):
